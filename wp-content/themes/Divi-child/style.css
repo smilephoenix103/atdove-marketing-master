@@ -1,0 +1,143 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+h1 {
+	color: #AFBE23 !important;
+	font-family: "Ideal Sans-Semibold", Helvetica,Arial,sans-serif !important;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.et_pb_text_2 h1,
+.et_pb_text_6 h1,
+.et_pb_text_9 h1 {
+    color: #AFBE23!important;
+}
+
+h2, .et_pb_text_inner h2 {
+	color: #4E524A !important;
+	font-family: "Ideal Sans-Semibold", Helvetica,Arial,sans-serif !important;
+}
+
+h3 {
+	color: #e67324 !important;
+	font-family: "Ideal Sans-Semibold", Helvetica,Arial,sans-serif !important;
+	font-weight: bold;
+}
+
+h4 {
+    color: #E67324 !important;
+    font-family: "Ideal Sans-Semibold", Helvetica,Arial,sans-serif !important;
+
+}
+
+body, .et_pb_text_inner p {
+	color: #4E524A !important;
+	font-family: "Ideal Sans-Book", Helvetica,Arial,sans-serif !important;
+	font-size: 17px;
+}
+
+a:link, a:active {
+  color: #617332 !important;
+}
+
+a:visited {
+  color: #7e963a !important;
+}
+
+a:hover, .nav > li > a:hover {
+  color: #AFBE23 !important;
+}
+
+#page-container .et_pb_section .et_pb_button_2:hover, 
+#page-container .et_pb_section .et_pb_button_3:hover {
+  background-color: #fff;
+}
+
+.et_pb_fullwidth_header_0_tb_body {
+    padding-bottom: 0;
+}
+
+/* content in rows @ 80% */
+.et_pb_row.et_pb_row_0,
+.et_pb_section.et_pb_section_1.et_section_specialty > .et_pb_row {
+    width: 80% !important;
+    max-width: 1080px !important;
+	margin: auto !important;
+	position: relative !important;
+}
+
+/* colored background */
+.et_pb_section.et_pb_section_0.et_pb_with_background,
+.et_pb_section.et_pb_section_2.et_pb_with_background,
+.et_pb_section.et_pb_section_4.et_pb_with_background {
+	background-blend-mode: overlay;
+    background-image: url(/wp-content/uploads/2021/06/coding-background-texture.jpg),linear-gradient(180deg,#7e963a 0%,#afbe23 100%) !important;
+}
+
+/* white background */
+.et_pb_section.et_pb_section_1,
+.et_pb_section.et_pb_section_3,
+.et_pb_section.et_pb_section_5,
+.et_pb_section.et_pb_section_7,
+.et_pb_section.et_pb_section_9 {
+	background-color: #F4F5F4!important;
+}
+
+/* make background start at the top of the page */
+.et_pb_section.et_pb_section_0.et_pb_with_background {
+	margin-top: -120px!important;
+}
+
+.et_pb_button, 
+.et_pb_button_0, 
+.et_pb_button_1, 
+.et_pb_button_2, 
+.et_pb_button_3, 
+.et_pb_button_4, 
+.et_pb_button_5, 
+.et_pb_button_6, 
+.et_pb_button_7, 
+.et_pb_button_8 {
+    box-shadow: 0px 2px 18px 0px #617332;
+    color: #0A2240 !important;
+    border-width: 10px !important;
+    border-color: #E67324 !important;
+    border-radius: 5px !important;
+    letter-spacing: 1px !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+	background-color: #E67324 !important;
+	box-shadow: 0px 2px 18px 0px #e67324 !important;
+    transition: letter-spacing 300ms ease 0ms !important;
+}
+
+.et_pb_divider_0:before, 
+.et_pb_divider_1:before,
+.et_pb_divider_2:before,
+.et_pb_divider_3:before,
+.et_pb_divider_4:before,
+.et_pb_divider_5:before,
+.et_pb_divider_6:before,
+.et_pb_divider_7:before,
+.et_pb_divider_8:before,
+.et_pb_divider_9:before,
+.et_pb_divider_10:before {
+    border-top-color: #7BBFE9 !important;
+    border-top-width: 4px !important;
+	margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.et_pb_row.et_pb_row_0_tb_body {
+    width: 100% !important;
+    max-width: 2000px !important;
+}
